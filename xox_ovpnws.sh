@@ -521,7 +521,7 @@ install_done()
   echo
   echo
   history -c;
-  rm /root/.installer
+  rm ~/.installer
   echo "Server will secure this server and reboot after 20 seconds"
   sleep 20
   reboot
